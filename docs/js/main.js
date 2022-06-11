@@ -82,7 +82,7 @@ if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
 }
 
 //获取一言
-fetch('https://v1.hitokoto.cn?max_length=24')
+fetch('https://api.vvhan.com/api/ian?type=json')
     .then(response => response.json())
     .then(data => {
         $('#hitokoto_text').html(data.hitokoto)
