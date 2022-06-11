@@ -85,8 +85,8 @@ if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
 fetch('https://api.vvhan.com/api/ian?type=json')
     .then(response => response.json())
     .then(data => {
-        $('#hitokoto_text').html(data.hitokoto)
-        $('#from_text').html(data.from)
+        $('#ishan_text').html(data.ishan)
+        $('#id_text').html(data.id)
     })
     .catch(console.error)
 
