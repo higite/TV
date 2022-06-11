@@ -98,8 +98,9 @@ fetch('https://v0.yiketianqi.com/api?unescape=1&version=v61&appid=35234672 &apps
     .then(data => {
         $('#wea_text').html(data.wea)
         $('#city_text').html(data.city)
-        $('#tem_night').html(data.tem_night)
-        $('#tem_day').html(data.tem_day)
+        $('#tem1').html(data.tem1)
+        $('#tem2').html(data.tem2)
+        $('#air_level').html(data.air_level)
         // $('#win_text').html(data.win)
         // $('#win_speed').html(data.win_speed)
     })
